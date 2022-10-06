@@ -1,0 +1,97 @@
+body {
+  font-family: "Concert One", cursive;
+  /* background-image: url(https://picsum.photos/720/1980); */
+  background-image: url("/img/metropolis.jpg");
+  background-color: rgb(70, 186, 183);
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+}
+.clock {
+  width: 375px;
+  height: 375px;
+  background-image: url(https://i.ibb.co/dBGxSK1/hiclipart-com-3.png);
+  background-color: rgba(255, 255, 255, 0);
+  background-size: cover;
+  border-radius: 50%;
+  position: relative;
+  /* left: 525px; */
+  margin: 0 auto;
+}
+.clock-arrow {
+  position: absolute;
+  background-color: #57ff8f;
+  /* background-color: black; */
+  transform-origin: bottom;
+  transform: translateX(-50%);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.clock-center {
+  position: absolute;
+  background-color: black;
+  bottom: 47.5%;
+  left: 48%;
+  /* top: 268px;
+  left: 268px; */
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.clock-seconds__arrow {
+  background-image: linear-gradient(to top, #f44336 75%, #c94646);
+  bottom: 50%;
+  left: 50%;
+  width: 5px;
+  height: 40%;
+}
+.clock-minutes__arrow {
+  bottom: 50%;
+  left: 50%;
+  width: 7px;
+  height: 33%;
+}
+.clock-hours__arrow {
+  bottom: 50%;
+  left: 50%;
+  width: 12px;
+  height: 24%;
+}
+.date {
+  width: 100px;
+  /* height: 100px; */
+  /* color: black; */
+}
+.calendar {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 10px;
+  margin-left: 15px;
+  /* color: #004ec4; */
+}
+.date-style {
+  display: flex;
+  font-size: 24px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  gap: 10px;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.digital-clock {
+  margin-top: 20px;
+  margin-left: 15px;
+  /* text-align: center; */
+  padding: 0;
+  font-size: 30px;
+  line-height: 1.19;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  color: #57ff8f;
+  /* color: #004ec4; */
+  text-shadow: 0px 1px 3px #40bb69, 0px 1px 1px #40bb69, 0px 2px 1px #40bb69;
+}
