@@ -41,7 +41,7 @@ body {
 .clock-seconds__arrow {
   background-image: linear-gradient(to top, #f44336 75%, #c94646);
   bottom: 50%;
-  left: 50%;
+  left: 49.5%;
   width: 5px;
   height: 40%;
 }
