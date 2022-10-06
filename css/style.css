@@ -1,15 +1,15 @@
 body {
   font-family: "Concert One", cursive;
   background-image: url(https://picsum.photos/720/1920);
-  /* background-image: url("/img/metropolis.jpg"); */
+  /* background-image: url("/img/931-720x1920.jpg"); */
   background-color: rgb(70, 186, 183);
   background-size: cover;
   /* background-position: center; */
   background-repeat: no-repeat;
 }
 .clock {
-  width: 375px;
-  height: 375px;
+  width: 376px;
+  height: 376px;
   background-image: url(https://i.ibb.co/dBGxSK1/hiclipart-com-3.png);
   background-color: rgba(255, 255, 255, 0);
   background-size: cover;
@@ -31,7 +31,7 @@ body {
   position: absolute;
   background-color: black;
   bottom: 47.5%;
-  left: 48%;
+  left: 48.4%;
   /* top: 268px;
   left: 268px; */
   width: 20px;
@@ -69,7 +69,7 @@ body {
   /* align-items: center; */
   justify-content: center;
   gap: 10px;
-  margin-left: 15px;
+  margin-left: 14px;
   /* color: #004ec4; */
 }
 .date-style {
@@ -84,7 +84,7 @@ body {
 }
 .digital-clock {
   margin-top: 20px;
-  margin-left: 15px;
+  margin-left: 14px;
   /* text-align: center; */
   padding: 0;
   font-size: 30px;
